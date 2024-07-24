@@ -341,8 +341,6 @@ i {
 }
 
 /* social media icons author section */
-.icons-author i {
-}
 
 .icons-author a {
    padding: 0 14px;
@@ -522,7 +520,7 @@ nav .container {
 }
 
 .nav-white.fixed-nav .navbar-nav li a:hover {
-   border-bottom-color: #000
+   border-bottom-color: #fff
 }
 
 .nav-white.shrink-nav .navbar-nav li a:hover {
@@ -569,7 +567,11 @@ nav .container {
 }
 
 .navbar-nav li a.active {
-   border-bottom: 1px solid #000
+   border-bottom: 1px solid #fff
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+   color: #fff ;
 }
 
 .fixed-nav.nav-border-bottom {
