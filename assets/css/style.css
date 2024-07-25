@@ -8,6 +8,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+@font-face {
+   font-family: reinaNeue;
+   src: url(../FONT/ReinaNeueCapitals-Bold.otf);
+}
+
 /* -------------------------------
    Reset
 ------------------------------- */
@@ -224,7 +229,6 @@ h3 {
 h4 {
    font-size: 17px;
    font-weight: 400;
-   font-family: 'Open Sans', sans-serif;
    letter-spacing: 0px;
    text-transform: none;
    line-height: 25px
@@ -233,7 +237,6 @@ h4 {
 h5 {
    font-size: 13px;
    font-weight: 700;
-   font-family: 'Open Sans', sans-serif;
    letter-spacing: 2px;
    line-height: 21px
 }
@@ -241,7 +244,6 @@ h5 {
 h6 {
    font-size: 12px;
    font-weight: 400;
-   font-family: 'Open Sans', sans-serif;
    letter-spacing: 1px;
    line-height: 19px
 }
@@ -255,6 +257,7 @@ h5 {
    padding: 0;
    color: #fff;
    text-transform: uppercase;
+   font-family: reinaNeue;
 }
 
 /* Section Heading */
@@ -263,6 +266,7 @@ h5 {
    padding-bottom: 16px;
    text-transform: uppercase;
    font-weight: 700;
+   font-family: reinaNeue;
    letter-spacing: 2px;
 }
 
@@ -293,12 +297,12 @@ h5 {
 }
 
 .text-second {
-   color: #ff0000 !important;
+   color: #efefef !important;
 }
 
 /* oswald font */
 .font-oswald {
-   font-family: 'Oswald', sans-serif;
+   font-family: reinaNeue;
 }
 
 /* Letter Spacing */
@@ -393,7 +397,7 @@ i {
    Background Colors
 ------------------------------- */
 .bg-gray-full {
-   background: #ff0000 !important;
+   background: #fff !important;
 }
 
 .bg-white {
@@ -409,7 +413,7 @@ i {
 }
 
 .bg-gray-light {
-   background-color: #ff0000 !important;
+   background-color: #fff !important;
 }
 
 /* -------------------------------
@@ -635,10 +639,10 @@ nav .container {
 }
 
 .text-hero h1 {
-   font-size: 32px;
+   font-size: 25px;
    font-weight: 600;
    margin-bottom: 9px;
-   font-family: 'Oswald', sans-serif;
+   font-family: reinaNeue;
    line-height: 45px;
    letter-spacing: 3px;
 }
@@ -721,8 +725,13 @@ nav .container {
    color: #828282
 }
 
+.text-black-75 {
+   color: #282828 !important;
+}
+
 .review-section .name {
    font-size: 13px;
+   font-family: reinaNeue;
    display: block;
    width: 100%;
    font-weight: 700;
@@ -773,12 +782,12 @@ nav .container {
 
 .footer-icons a {
    margin: 0 13px;
-   color: #fff;
+   color: #000;
    font-size: 16px;
 }
 
 .footer-icons a:hover {
-   color: #e8e8e8;
+   color: #373737;
 }
 
 .btm-footer {
@@ -886,18 +895,18 @@ footer {
 }
 
 .contact-btn {
-   border: 1px solid #ff0000;
+   border: 1px solid #fff;
    display: inline-block;
    padding: 9px 20px 9px;
    font-size: 13px;
-   background-color: #ff0000;
+   background-color: #fff;
    color: #fff;
 }
 
 .contact-btn:hover {
    background-color: #fff;
    border: 1px solid #fff;
-   color: #ff0000
+   color: #fff
 }
 
 .btn-black {
@@ -910,8 +919,8 @@ footer {
 }
 
 .btn-black:hover {
-   border: 1px solid #ff0000;
-   background-color: #ff0000;
+   border: 1px solid #fff;
+   background-color: #fff;
    color: #fff;
 }
 
